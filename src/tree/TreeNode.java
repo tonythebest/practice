@@ -1,5 +1,7 @@
 package tree;
 
+import queue.*;
+
 public class TreeNode {
 
 	private TreeNode parent;

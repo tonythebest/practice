@@ -5,14 +5,14 @@ public class QueueList {
 	private SListNode enqEnd, deqEnd;
 	private int size;
 	
-	QueueList (Object obj) {
+	public QueueList (Object obj) {
 		enqEnd.item = obj;
 		enqEnd.next = null;
 		deqEnd = enqEnd;
 		size = 1;
 	}
 	
-	QueueList () {
+	public QueueList () {
 		enqEnd = null;
 		deqEnd = null;
 //		this(null);
