@@ -56,7 +56,7 @@ public class QueueList {
 			System.out.print (currentNode.item + " ");
 			currentNode = currentNode.next;
 		}
-		System.out.println("\nThe total size of the stack is: "+ size);
+		System.out.println("\nThe total size of the queue is: "+ size);
 	}
 	
 	public int getSize (){

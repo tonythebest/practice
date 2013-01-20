@@ -49,7 +49,7 @@ public class TreeTraversal {
 		treeNodes[0].postorder();
 		System.out.println("*** inorder from node 1");
 		treeNodes[1].inorder();
-		System.out.println("*** level order (breadth first)");
+		System.out.println("*** level order (breadth first BFS)");
 		treeNodes[0].levelPrint();
 		
 	}

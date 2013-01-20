@@ -67,7 +67,7 @@ public class TreeNode {
 		System.out.println(this.getData());
 	}
 	
-	public void levelPrint() {
+	public void levelPrint() { //breadth first BFS
 		QueueList queue = new QueueList ();
 		queue.enqueue(this);
 		while (queue.getSize()!=0) {
