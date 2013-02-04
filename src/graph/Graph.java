@@ -2,6 +2,8 @@ package graph;
 
 import java.util.Arrays;
 
+import queue.QueueList;
+
 public class Graph {
 	private Object[] nodes;
 //	private int numNodes;
@@ -68,6 +70,37 @@ public class Graph {
 				visit(nodes[i]);
 				visited[i] = true;
 				dfs(i,visited);
+			}
+		}		
+	}
+	
+	public void breadthFirstSearch (int nodeIndex) {
+		boolean[] visited = new boolean[getNumNodes()];
+		QueueList q = new QueueList();
+		System.out.println("=========== BFS ============");
+
+		q.enqueue(nodes[nodeIndex]);
+		System.out.println("*** enqueue: "+nodes[nodeIndex].toString());
+		visited[nodeIndex] = true;
+		visit(nodes[nodeIndex]);
+
+		while (q.getSize()!=0) {
+			Object node = q.dequeue();
+			System.out.println("*** dequeue: "+node.toString());
+			int index = 0;
+			for (int i = 0; i<getNumNodes(); i++) {
+				if (node.equals(nodes[i])) {
+					index = i;
+				}
+			}
+			
+			for (int i = 0; i<getNumNodes(); i++) {
+				if (!visited[i] && dists[index][i]>0) {
+					visit(nodes[i]);
+					visited[i] = true;
+					q.enqueue(nodes[i]);
+					System.out.println("*** enqueue: "+nodes[i].toString());
+				}
 			}
 		}		
 	}

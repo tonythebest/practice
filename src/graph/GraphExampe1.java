@@ -42,6 +42,7 @@ public class GraphExampe1 {
 //		}
 		
 		graph1.depthFirstSearch(0);
+		graph1.breadthFirstSearch(0);
 		
 		
 
