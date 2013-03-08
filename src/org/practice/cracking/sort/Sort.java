@@ -26,6 +26,7 @@ public class Sort {
 	}
 	
 	public static void sortTwoSortedPartsInPlace(int[] a, int low1, int high1, int low2, int high2, int[] nn) {
+		//nn[] is for pass reference and keep track of computation complexity
 		int numCells1 = high1 - low1 + 1; 
 		int numCells2 = high2 - low2 + 1;
 		int numCells = numCells1 + numCells2;

@@ -1,7 +1,5 @@
 package org.practice.cracking.graph;
 
-import java.util.Arrays;
-
 public class GraphExampe1 {
 
 	/**
