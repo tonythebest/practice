@@ -1,4 +1,4 @@
-package questions;
+package questions150;
 
 public class Q0101 {
 	
@@ -9,14 +9,14 @@ public class Q0101 {
 		}
 	}
 
-	private static boolean isUniqueChars(String s) {
+	public static boolean isUniqueChars(String s) {
 		// TODO Auto-generated method stub
 		if (s.length()>256) return false;
 		
 		boolean[] ascii = new boolean[256];
 		for (int i = 0; i < s.length(); i++) {
-			if (ascii[s.getChar(i)]) return false;
-			else ascii[s.getChar(i)] = true;
+			if (ascii[s.charAt(i)]) return false; //should not be s.getChar!!!
+			else ascii[s.charAt(i)] = true;
 		}
 		return true;
 	}
@@ -26,7 +26,7 @@ public class Q0101 {
 	 * @param s input String
 	 * @return unique or not
 	 */
-	private static boolean isUniqueChars2(String s) {
+	public static boolean isUniqueChars2(String s) {
 		// TODO Auto-generated method stub
 		if (s.length() > 26) return false;
 		int bits = 0;
@@ -35,7 +35,7 @@ public class Q0101 {
 			if ((bits & (1 << shift)) > 0) return false;
 			else bits |= 1 << shift;
 		}
-		return false;
+		return true;
 	}
 
 }

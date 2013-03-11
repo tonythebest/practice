@@ -109,6 +109,10 @@ public class SortTest extends TestCase {
 		System.out.println("Complexity: O(n) = " + m + "; Radix Sorted: "+Arrays.toString(dd));
 		assertTrue(Arrays.equals(aa, dd));
 		
+//		int x = 0;
+//		boolean y = false;
+//		boolean[] z = new boolean[5];
+//		System.out.println(x+", "+y+z);
 	}
 	
 	
