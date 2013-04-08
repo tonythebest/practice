@@ -1,6 +1,5 @@
 package org.practice.cracking.search;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 
 import junit.framework.TestCase;
