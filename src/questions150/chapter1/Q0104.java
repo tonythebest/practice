@@ -1,4 +1,4 @@
-package questions150;
+package questions150.chapter1;
 
 public class Q0104 {
 

@@ -1,8 +1,8 @@
 package org.practice.cracking.queue;
 
-class SListNode {
-	Object item;
-	SListNode next;
+public class SListNode {
+	public Object item;
+	public SListNode next;
 	
 	public SListNode (Object obj, SListNode nxt) {
 		item = obj;

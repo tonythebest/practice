@@ -1,6 +1,6 @@
 package questions150;
 
-import questions150.Q0103;
+import questions150.chapter1.Q0103;
 import junit.framework.TestCase;
 
 public class Q0103Test extends TestCase {

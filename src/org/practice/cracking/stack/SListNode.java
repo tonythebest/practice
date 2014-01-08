@@ -1,6 +1,6 @@
 package org.practice.cracking.stack;
 
-class SListNode {
+public class SListNode {
 	Object item;
 	SListNode next;
 	
