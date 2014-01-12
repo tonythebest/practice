@@ -1,5 +1,5 @@
-﻿Build started 4/16/2013 11:09:25 PM.
-     1>Project "D:\Doc\GitHub\practice\C\Lesson1\Lesson1.vcxproj" on node 2 (build target(s)).
+﻿Build started 1/11/2014 4:58:30 PM.
+     1>Project "M:\Tony\Study\GitHub\practice\C\Lesson1\Lesson1.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
          Creating "Debug\Lesson1.unsuccessfulbuild" because "AlwaysCreate" was specified.
        ClCompile:
@@ -8,20 +8,20 @@
        ManifestResourceCompile:
          C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\Lesson1.exe.embed.manifest.res" Debug\Lesson1_manifest.rc 
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Doc\GitHub\practice\C\Lesson1\Debug\Lesson1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Lesson1.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Doc\GitHub\practice\C\Lesson1\Debug\Lesson1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Doc\GitHub\practice\C\Lesson1\Debug\Lesson1.lib" /MACHINE:X86 Debug\Lesson1.exe.embed.manifest.res
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"M:\Tony\Study\GitHub\practice\C\Lesson1\Debug\Lesson1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Lesson1.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"M:\Tony\Study\GitHub\practice\C\Lesson1\Debug\Lesson1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"M:\Tony\Study\GitHub\practice\C\Lesson1\Debug\Lesson1.lib" /MACHINE:X86 Debug\Lesson1.exe.embed.manifest.res
          Debug\main.obj
+         LINK : M:\Tony\Study\GitHub\practice\C\Lesson1\Debug\Lesson1.exe not found or not built by the last incremental link; performing full link
        Manifest:
          C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\Lesson1.exe.embed.manifest" /manifest Debug\Lesson1.exe.intermediate.manifest
-         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\Lesson1.exe.embed.manifest.res" Debug\Lesson1_manifest.rc 
+         All outputs are up-to-date.
        LinkEmbedManifest:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Doc\GitHub\practice\C\Lesson1\Debug\Lesson1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Lesson1.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Doc\GitHub\practice\C\Lesson1\Debug\Lesson1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Doc\GitHub\practice\C\Lesson1\Debug\Lesson1.lib" /MACHINE:X86 Debug\Lesson1.exe.embed.manifest.res
-         Debug\main.obj
-         Lesson1.vcxproj -> D:\Doc\GitHub\practice\C\Lesson1\Debug\Lesson1.exe
+         All outputs are up-to-date.
+         Lesson1.vcxproj -> M:\Tony\Study\GitHub\practice\C\Lesson1\Debug\Lesson1.exe
        FinalizeBuildStatus:
          Deleting file "Debug\Lesson1.unsuccessfulbuild".
          Touching "Debug\Lesson1.lastbuildstate".
-     1>Done Building Project "D:\Doc\GitHub\practice\C\Lesson1\Lesson1.vcxproj" (build target(s)).
+     1>Done Building Project "M:\Tony\Study\GitHub\practice\C\Lesson1\Lesson1.vcxproj" (build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:03.68
+Time Elapsed 00:00:01.90

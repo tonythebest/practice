@@ -82,24 +82,24 @@ public class WordLadder {
     	return allWords;
     }
     
-    /**
-     * check if two words have only one character different
-     * @param a
-     * @param b
-     * @return
-     */
-    public static boolean isConnected (String a, String b) {
-        char[] A = a.toCharArray();
-        char[] B = b.toCharArray();
-        int numDiff = 0;
-        for (int i = 0; i < a.length(); i++) {
-            if ((A[i] - B[i]) != 0) {
-                numDiff++;
-                if (numDiff > 1) return false;
-            }
-        }
-        return true;
-    }
+//    /**
+//     * check if two words have only one character different
+//     * @param a
+//     * @param b
+//     * @return
+//     */
+//    public static boolean isConnected (String a, String b) {
+//        char[] A = a.toCharArray();
+//        char[] B = b.toCharArray();
+//        int numDiff = 0;
+//        for (int i = 0; i < a.length(); i++) {
+//            if ((A[i] - B[i]) != 0) {
+//                numDiff++;
+//                if (numDiff > 1) return false;
+//            }
+//        }
+//        return true;
+//    }
     
     /**
      * print all objects in a Hash Set
