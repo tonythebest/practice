@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "valid_palindrome", "valid_palindrome.vcxproj", "{3EE4D066-8E1F-4510-84D7-97D03672E4E0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3EE4D066-8E1F-4510-84D7-97D03672E4E0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3EE4D066-8E1F-4510-84D7-97D03672E4E0}.Debug|Win32.Build.0 = Debug|Win32
+		{3EE4D066-8E1F-4510-84D7-97D03672E4E0}.Release|Win32.ActiveCfg = Release|Win32
+		{3EE4D066-8E1F-4510-84D7-97D03672E4E0}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
